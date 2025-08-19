@@ -1,0 +1,20 @@
+.products-img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.product-img {
+    position: relative;
+}
+
+.adding-btn {
+  position: absolute;
+  bottom: -5px;
+  left: 91px;
+}
+
+.add-to-cart-btn {
+  background-color: white;
+  border: 1px solid lightgray;
+  border-radius: 15px;
+}

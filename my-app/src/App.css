@@ -1,9 +1,28 @@
-@media all and (min-width:320px) {
-    .container {
-        margin: 10px;
-    }
+@media all and (min-width: 320px) {
+  .container {
+    margin: 10px;
+  }
+}
+
+@font-face {
+  font-family: "RedHatText";
+  src: url(fonts/RedHatText-Regular.ttf) format("ttf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "RedHatText";
+  src: url(fonts/RedHatText-SemiBold.ttf) format("ttf");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "RedHatText";
+  src: url(fonts/RedHatText-Bold.ttf) format("ttf");
+  font-weight: 700;
 }
 
 body {
-    background-color: hsl(20, 50%, 98%);
+  background-color: hsl(20, 50%, 98%);
+  font-family: "RedHatText", sans-serif;
 }

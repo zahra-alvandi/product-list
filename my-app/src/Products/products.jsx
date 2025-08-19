@@ -14,7 +14,7 @@ function Product() {
           <div className='adding-btn'>
             <button className="add-to-cart-btn">
                 <img src="images/icon-add-to-cart.svg" alt="" />
-                Add to Cart
+                <span>Add to Cart</span>
             </button>
           </div>
           </div>

@@ -9,12 +9,19 @@
 
 .adding-btn {
   position: absolute;
-  bottom: -5px;
-  left: 91px;
+  bottom: -10px;
+  left: 80px;
 }
 
 .add-to-cart-btn {
   background-color: white;
-  border: 1px solid lightgray;
+  border: 1px solid gray;
   border-radius: 15px;
+  padding: 5px 15px;
+}
+
+.add-to-cart-btn span {
+  padding-left: 5px;
+  margin-bottom: 5px;
+  font-family: "RedHatText" , sans-serif;
 }

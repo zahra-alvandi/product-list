@@ -3,25 +3,53 @@
   border-radius: 10px;
 }
 
+.title {
+  font-weight: bolder;
+  color: #260f08;
+  font-size: 30px;
+}
+
 .product-img {
     position: relative;
+    margin-bottom: 35px;
 }
 
 .adding-btn {
   position: absolute;
   bottom: -10px;
-  left: 80px;
+  left: 75px;
 }
 
 .add-to-cart-btn {
   background-color: white;
   border: 1px solid gray;
-  border-radius: 15px;
-  padding: 5px 15px;
+  border-radius: 20px;
+  padding: 3px 25px;
 }
 
 .add-to-cart-btn span {
   padding-left: 5px;
   margin-bottom: 5px;
   font-family: "RedHatText" , sans-serif;
+}
+
+.icon-text-div {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.product-name {
+  font-size: 16px;
+  color: #87635a;
+}
+
+.product-info {
+  color: #260f08;
+  font-weight: 600;
+}
+
+.product-price {
+  color: #c73a0f;
+  font-weight: bold;
 }

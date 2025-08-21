@@ -2,15 +2,18 @@ import "./products.css"
 
 function Product() {
     return (
-        <div>
+        <div className="container-products ">
       <div className='header-title'>
         <h2 className="title">Desserts</h2>
       </div>
 
+      <div className="tablet-style desktop-style">
+
       <div>
         <div>
           <div className="product-img">
-            <img className="products-img" src="/images/image-waffle-mobile.jpg" alt="" />
+            <img className="products-img img-mobile" src="/images/image-waffle-mobile.jpg" alt="" />
+            <img className="products-img img-desktop" src="/images/image-waffle-desktop.jpg" alt="" />
           <div className='adding-btn'>
             <button className="add-to-cart-btn">
                 <div className="icon-text-div">
@@ -33,7 +36,8 @@ function Product() {
       <div>
         <div>
           <div className="product-img">
-            <img className="products-img" src="/images/image-creme-brulee-mobile.jpg" alt="" />
+            <img className="products-img img-mobile" src="/images/image-creme-brulee-mobile.jpg" alt="" />
+            <img className="products-img img-desktop" src="/images/image-creme-brulee-desktop.jpg" alt="" />
           <div className='adding-btn'>
             <button className="add-to-cart-btn">
                 <div className="icon-text-div">
@@ -57,7 +61,8 @@ function Product() {
       <div>
         <div>
           <div className="product-img">
-            <img className="products-img" src="/images/image-macaron-mobile.jpg" alt="" />
+            <img className="products-img img-mobile" src="/images/image-macaron-mobile.jpg" alt="" />
+            <img className="products-img img-desktop" src="/images/image-macaron-desktop.jpg" alt="" />
           <div className='adding-btn'>
             <button className="add-to-cart-btn">
                 <div className="icon-text-div">
@@ -81,7 +86,8 @@ function Product() {
       <div>
         <div>
           <div className="product-img">
-            <img className="products-img" src="/images/image-tiramisu-mobile.jpg" alt="" />
+            <img className="products-img img-mobile" src="/images/image-tiramisu-mobile.jpg" alt="" />
+            <img className="products-img img-desktop" src="/images/image-tiramisu-desktop.jpg" alt="" />
           <div className='adding-btn'>
             <button className="add-to-cart-btn">
                 <div className="icon-text-div">
@@ -105,7 +111,8 @@ function Product() {
       <div>
         <div>
           <div className="product-img">
-            <img className="products-img" src="/images/image-baklava-mobile.jpg" alt="" />
+            <img className="products-img img-mobile" src="/images/image-baklava-mobile.jpg" alt="" />
+            <img className="products-img img-desktop" src="/images/image-baklava-desktop.jpg" alt="" />
           <div className='adding-btn'>
             <button className="add-to-cart-btn">
                 <div className="icon-text-div">
@@ -129,7 +136,8 @@ function Product() {
       <div>
         <div>
           <div className="product-img">
-            <img className="products-img" src="/images/image-meringue-mobile.jpg" alt="" />
+            <img className="products-img img-mobile" src="/images/image-meringue-mobile.jpg" alt="" />
+            <img className="products-img img-desktop" src="/images/image-meringue-desktop.jpg" alt="" />
           <div className='adding-btn'>
             <button className="add-to-cart-btn">
                 <div className="icon-text-div">
@@ -153,7 +161,8 @@ function Product() {
       <div>
         <div>
           <div className="product-img">
-            <img className="products-img" src="/images/image-cake-mobile.jpg" alt="" />
+            <img className="products-img img-mobile" src="/images/image-cake-mobile.jpg" alt="" />
+            <img className="products-img img-desktop" src="/images/image-cake-desktop.jpg" alt="" />
           <div className='adding-btn'>
             <button className="add-to-cart-btn">
                 <div className="icon-text-div">
@@ -177,7 +186,8 @@ function Product() {
       <div>
         <div>
           <div className="product-img">
-            <img className="products-img" src="/images/image-brownie-mobile.jpg" alt="" />
+            <img className="products-img img-mobile" src="/images/image-brownie-mobile.jpg" alt="" />
+            <img className="products-img img-desktop" src="/images/image-brownie-desktop.jpg" alt="" />
           <div className='adding-btn'>
             <button className="add-to-cart-btn">
                 <div className="icon-text-div">
@@ -201,7 +211,8 @@ function Product() {
       <div>
         <div>
           <div className="product-img">
-            <img className="products-img" src="/images/image-panna-cotta-mobile.jpg" alt="" />
+            <img className="products-img img-mobile" src="/images/image-panna-cotta-mobile.jpg" alt="" />
+            <img className="products-img img-desktop" src="/images/image-panna-cotta-desktop.jpg" alt="" />
           <div className='adding-btn'>
             <button className="add-to-cart-btn">
                 <div className="icon-text-div">
@@ -219,6 +230,21 @@ function Product() {
           <p className="product-price">$6.50</p>
         </div>
 
+      </div>
+
+      {/* <div className="desktop-cart">
+            <div className="cart-title">
+                <h2>Your Cart (0)</h2>
+            </div>
+            <div className="cart-items-box"> 
+               <div className="empty-cart-img">
+                 <img src="images/illustration-empty-cart.svg" alt="" />
+               </div>
+               <div>
+                <p className="empty-cart-text">Your added items will appers here</p>
+               </div>
+            </div>
+        </div> */}
       </div>
     </div>
     )

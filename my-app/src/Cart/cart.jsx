@@ -2,7 +2,7 @@ import "./cart.css"
 
 function Cart() {
     return (
-        <div className="container">
+        <div className="container-cart desktop ">
             <div className="cart-title">
                 <h2>Your Cart (0)</h2>
             </div>

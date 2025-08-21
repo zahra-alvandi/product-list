@@ -1,4 +1,4 @@
-.container {
+.container-cart {
     margin: 40px 15px;
 }
 
@@ -17,4 +17,13 @@
     font-size: 12px;
     color: #ad8985;
     font-weight: 600;
+}
+
+@media all and (min-width: 1024px) {
+    .empty-cart-img img {
+        width: 100%;
+    }
+    .empty-cart-text {
+        text-align: left;
+    }
 }

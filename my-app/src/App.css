@@ -4,6 +4,13 @@
   }
 }
 
+@media all and (min-width: 1024px) {
+  .container {
+    display: flex;
+    justify-content: space-evenly;
+  }
+}
+
 @font-face {
   font-family: "RedHatText";
   src: url(fonts/RedHatText-Regular.ttf) format("ttf");

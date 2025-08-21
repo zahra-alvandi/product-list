@@ -10,8 +10,8 @@
 }
 
 .product-img {
-    position: relative;
-    margin-bottom: 35px;
+  position: relative;
+  margin-bottom: 35px;
 }
 
 .adding-btn {
@@ -30,7 +30,7 @@
 .add-to-cart-btn span {
   padding-left: 5px;
   margin-bottom: 5px;
-  font-family: "RedHatText" , sans-serif;
+  font-family: "RedHatText", sans-serif;
 }
 
 .icon-text-div {
@@ -52,4 +52,52 @@
 .product-price {
   color: #c73a0f;
   font-weight: bold;
+}
+
+@media all and (min-width: 374px) and (max-width: 767px) {
+  .adding-btn {
+    left: 29%;
+  }
+  .img-mobile {
+    display: block;
+  }
+  .img-desktop {
+    display: none;
+  }
+}
+
+@media all and (min-width: 768px) and (max-width: 1023px) {
+  .tablet-style {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 15px;
+  }
+  .adding-btn {
+    left: 30%;
+  }
+  .img-mobile {
+    display: block;
+  }
+  .img-desktop {
+    display: none;
+  }
+}
+
+@media all and (min-width: 1024px) {
+  .container-products {
+    display: grid;
+    width: 70%;
+    justify-content: center;
+  }
+  .desktop-style {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 25px;
+  }
+  .img-mobile {
+    display: none;
+  }
+  .img-desktop {
+    display: block;
+  }
 }
